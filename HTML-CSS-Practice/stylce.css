@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.bg1{
+  background-image: url(./1106_expo_2019spring\(4\).JPG);
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+header{  
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-left: 10px;
+}
+/*상단바 왼쪽 로고*/
+.logo{
+  display: flex;
+}
+.main-logo{
+  height: 50px;
+  width:80px;
+}
+.sub-logo{
+  height: 50px;
+  width: 150px;
+  margin-left: 10px;
+}
+/*상단바 중간*/
+.information{
+  display: flex;
+  
+}
+.if{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*상단바 오른쪽 로그인정보*/
+.login{
+  display: flex;
+  color: white;
+}
+.left-1{
+  background-color: tan;
+  padding: 20px;
+}
+.left-2{
+  background-color: rgb(9, 124, 255);
+  padding: 20px 10px;
+}
+.left-3{
+  background-color: rgb(39, 161, 120);
+  padding: 20px;
+}
+/*검색창*/
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.315);
+  
+}
+form{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid tan;
+  border-radius: 10px;
+  width: 400px;
+  background-color: rgba(128, 128, 128, 0.158);
+}
+.search{
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 350px;
+}
+
+
+/*메인 게시판*/
+main{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container{
+  height: 500px;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 180px;
+}
+
+.box1{
+  background-image: url(./135C9230F7E94EDABCA0E088FA7C04B0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  width: 700px;
+  margin-top: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.box2{
+  background-image: url(./mqdefault.jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+.box3{
+  background-image: url(./mqdefault\ \(1\).jpg);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.container2{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
