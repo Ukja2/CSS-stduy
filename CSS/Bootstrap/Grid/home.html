@@ -8,8 +8,10 @@
     <title>부트스트랩 연습</title>
 </head>
 <body>
-    <div class="container">
-        
+    <div class="container border mt-3 p-5">
+        <!--Bootstrap의 Grid 속성은 최대 12개의 unit으로 구성할 수 있다. 
+            grid 속성을 사용할 때는 부모요소의 class를 row로 지정하고, 배치하고 싶은
+            자식요소의 class를 col로 지정해주면 된다.-->
         <div class="row bg-primary mt-2">
             <div class="col bg-warning p-3 text-center border">1</div>
             <div class="col bg-warning p-3 text-center border">2</div>
@@ -24,11 +26,22 @@
             <div class="col bg-warning p-3 text-center border">11</div>
             <div class="col bg-warning p-3 text-center border">12</div>
         </div>
+    </div>
+
+    <div class="container border mt-3 p-5">
+        <!--Grid 내의 내부요소들은 특정 크기의 유닛을 지정해주지 않으면 
+            Grid 내에서 일정한 크기로 알아서 정렬된다. 아래의 코드는 그 예시다.-->
         <div class="row bg-primary mt-2">
             <div class="col bg-success p-3 text-center"> col</div>
             <div class="col bg-primary p-3 text-center"> col</div>
             <div class="col bg-warning p-3 text-center"> col</div>
         </div>
+    </div>
+
+    <div class="container border mt-3 p-5">
+        <!--특정 요소에 지정하고 싶은 unit이 있을 경우 `col-(최대 12 unit)`의 형태로 
+            작성할 수 있다. Grid 내에서 정렬하기 때문에 12 unit을 넘어가선 안되며, 아래와
+            같은 예시처럼 내부 요소를 다양한 형태로 배치할 수 있다. -->
         <div class="row bg-primary mt-2">
             <div class="col-6 bg-success p-3 text-center"> 6 of 12</div>
             <div class="col-3 bg-primary p-3 text-center">3 of 12</div>
@@ -40,6 +53,8 @@
             <div class="col-3 bg-warning p-3 text-center">3 of 12</div>
         </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
